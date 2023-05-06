@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    font-family: "Roboto Slab", sans-serif;
+    
+}
+
+.geral_login { 
+   width: 100vw;
+   height: 100vh;
+   background-size: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image:url(universe.jpg);
+}
+
+
+.rigth_login {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_principal_login {
+    color: #12f012;
+    font-size: 55px;
+}
+
+.invalida {
+    border: 2px #f30000 solid;
+}
+
+.mensagem-sucesso {
+    color: #037503;
+    text-align: center;
+} 
+
+.mensagem-erro {
+    color: #f71010;
+    text-align: center;
+}
+
+.informacoes_login {
+    width: 30%;
+    flex-direction: column;
+    padding: 15px 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 10px 40px -12px #000000;
+}
+
+.subtitulo_login {
+    color: white;;
+    font-weight: 800;
+    font-size: 50px;
+    margin: 0;
+    text-align: justify;
+}
+
+input {
+    width: 99%;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+    background-color: #2d2736;
+    font-size: 16px;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+
+label {
+    margin-bottom: 10px ;
+    font-size: 19px;
+}
+
+.btn_login {
+    width: 90%;
+    padding: 16px 16px;
+    margin: 23px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase ;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: white;
+    background:  #2d2736;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #000000;
+}
+
